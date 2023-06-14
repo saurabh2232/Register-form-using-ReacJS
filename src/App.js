@@ -67,6 +67,7 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert("Successfully registered");
   };
 
   const onChange = (e) => {
@@ -86,6 +87,7 @@ const App = () => {
             onChange={onChange}
           />
         ))}
+
         <button>Submit</button>
       </form>
     </div>
