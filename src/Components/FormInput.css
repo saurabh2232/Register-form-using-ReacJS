@@ -1,0 +1,28 @@
+.FormInput {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+span {
+  color: red;
+  font-size: 11px;
+  display: none;
+  padding: 3px;
+}
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
